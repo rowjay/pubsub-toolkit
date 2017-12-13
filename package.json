@@ -1,0 +1,29 @@
+{
+  "name": "pubsub-toolkit",
+  "version": "1.0.0",
+  "description": "A toolkit of node.js scripts to manage Google cloud PubSub topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowjay/pubsub-toolkit.git"
+  },
+  "keywords": [
+    "nodejs",
+    "gcp",
+    "google",
+    "cloud",
+    "pubsub",
+    "javascript",
+    "toolkit",
+    "functions"
+  ],
+  "author": "Rowan Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rowjay/pubsub-toolkit/issues"
+  },
+  "homepage": "https://github.com/rowjay/pubsub-toolkit#readme"
+}
