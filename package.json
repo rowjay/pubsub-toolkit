@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/rowjay/pubsub-toolkit/issues"
   },
-  "homepage": "https://github.com/rowjay/pubsub-toolkit#readme"
+  "homepage": "https://github.com/rowjay/pubsub-toolkit#readme",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.16.0"
+  }
 }
