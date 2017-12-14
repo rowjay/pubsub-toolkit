@@ -47,3 +47,4 @@ callback(new Error('oops'));
 ## Links
 (Pubsub message format)[https://cloud.google.com/pubsub/docs/reference/rest/v1/PubsubMessage]
 (Functions events and callbacks)[https://cloud.google.com/functions/docs/writing/background]
+(PubSub API client node.js)[https://googlecloudplatform.github.io/google-cloud-node/#/docs/pubsub/master/pubsub]
