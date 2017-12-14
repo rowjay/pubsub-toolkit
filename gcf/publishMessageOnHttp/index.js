@@ -5,7 +5,9 @@ const PubSub = require(`@google-cloud/pubsub`);
 // Create PubSub client object
 const client = PubSub();
 
-publish = function publish (req, res) {
+const Buffer = require('safe-buffer').Buffer;
+
+exports.publishMessage = function publishMessage (req, res) {
 
   console.log(`Publishing message to topic: ${req.body.topic}`);
   // Get topic
