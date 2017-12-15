@@ -1,0 +1,7 @@
+{
+  "name": "listTopics",
+  "version": "0.0.1"
+  "dependencies":
+  { "@google-cloud/pubsub": "latest",
+  , "safe-buffer": "5.1.1" }
+}
