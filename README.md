@@ -22,8 +22,16 @@ A toolkit of node.js scripts to manage Google cloud PubSub topics
 ```
 
 ## Functions
+1. Create storage bucket for functions
+2. Write *index.js*, *package.json*, and *config.json* files
+3. Deploy function to be executed (in index.js) by upload, storage, or repo. Note this is configured with json files.
+4. 
+
+Functions can be triggered by HTTP, Pubsub message, or Storage events.
 Background functions take 'event' and 'callback' parameters
+
 ### Event
+The event is a javascript object
 ```javascript
 {
   'eventId': 'unique ID',
