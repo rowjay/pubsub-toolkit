@@ -1,7 +1,6 @@
 'use strict';
-var datastore = require('@google-cloud/datastore')();
-const datastore = Datastore();
-const Buffer = require('safe-buffer').Buffer;
+const Datastore = require('@google-cloud/datastore')();
+var datastore = Datastore();
 
 exports.storeData = function storeData (event, callback) {
 
@@ -10,7 +9,7 @@ exports.storeData = function storeData (event, callback) {
   const pubsubMessage = event.data;
   
   // In base64 encoding
-  const data = JSON.parse(Buffer.from(pubsubMessage.data, 'base64').toString())
+  const data = JSON.parse(Buffer.from(pubsubMessage.data, 'base64').toString());
 
   // Debugging logs
   console.log(`
