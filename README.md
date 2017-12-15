@@ -43,7 +43,12 @@ callback(null, 'Win!');
 // Failure
 callback(new Error('oops'));
 ```
-
+### Trigger
+#### Direct
+Eg.
+```bash
+DATA=$(printf 'Example'|base64) && gcloud beta functions call functionName --data '{"x":"'$DATA'"}'
+```
 ## Links
 [Pubsub message format](https://cloud.google.com/pubsub/docs/reference/rest/v1/PubsubMessage)
 [Functions events and callbacks](https://cloud.google.com/functions/docs/writing/background)
