@@ -1,5 +1,5 @@
 {
-  "name": "listTopics",
+  "name": "createTopic",
   "version": "0.0.1",
   "dependencies":
   { "@google-cloud/pubsub": "latest",
